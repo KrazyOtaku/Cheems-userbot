@@ -13,7 +13,7 @@ from telethon.sessions import StringSession
 from .Config import Config
 
 StartTime = time.time()
-catversion = "2.10.2"
+cheemsversion = "2.10.2"
 
 if Config.STRING_SESSION:
     session_name = str(Config.STRING_SESSION)
@@ -30,7 +30,8 @@ else:
     bot = TelegramClient(session_name, Config.APP_ID, Config.API_HASH)
 
 
-CAT_ID = ["1035034432", "551290198"]
+CHEEMS_ID = ["884031659", "825664681"]
+
 
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
 
